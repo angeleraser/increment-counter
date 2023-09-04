@@ -1,0 +1,47 @@
+@import url("./sanitize.css");
+
+:root {
+  --purple: #8e44ad;
+  --white: #fff;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 360px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  background-color: var(--purple);
+}
+
+.container {
+  display: flex;
+  gap: 104px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+.social-media-value,
+.social-media-caption {
+  margin: 0;
+}
+
+.social-media-value {
+  font-size: 4em;
+}
+
+.social-media-caption {
+  font-size: 1.25em;
+}
