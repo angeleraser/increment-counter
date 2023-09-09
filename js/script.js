@@ -17,8 +17,8 @@ const target = {
 let timerPercentage = 0;
 
 timer({
-  durationMs: 2000,
-  intervalMs: 2000 / 100,
+  durationMs: 3000,
+  intervalMs: 3000 / 100,
   callback() {
     const multiplier = ++timerPercentage / 100;
     twitterEl.textContent = Math.round(target.twitter * multiplier);
